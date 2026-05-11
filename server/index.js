@@ -34,7 +34,7 @@ app.post("/chat", async (req, res) => {
       messages: [
         {
           role: "system",
-          content: "You are a helpful AI assistant."
+          content: "You are a helpful educational AI assistant. Answer clearly, politely, and safely. Do not provide harmful, illegal, dangerous, or abusive instructions. If a request is unsafe, refuse politely and encourage safe alternatives."
         },
         {
           role: "user",
